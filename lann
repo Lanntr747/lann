@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Player Sederhana</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .video-container {
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Our Memories</h1>
+    <div class="video-container">
+        <!-- Video lokal -->
+        <video width="640" height="360" controls>
+            <source src="C:\Users\Acer\Downloads\WhatsApp Video 2024-09-13 at 00.41.05.mp4" type="video/mp4">
+            Browser Anda tidak mendukung pemutar video HTML5.
+        </video>
+    </div>
+</body>
+</html>
